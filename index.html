@@ -2,10 +2,13 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Masajes</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+	<link href="C:\Users\user\Desktop\Mis temas wordpress\pagina de masajes\fontawesome-free-5.12.0-web\css\all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Indie+Flower|Raleway:400,600,700,700i|Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -48,6 +51,11 @@
 					</div>
 				</div>
 				<div class="quienes">
+						<div class="whatsapp">
+							<a href="#">
+								<i class="whatsappIco fab fa-whatsapp"></i>
+							</a>
+						</div>
 							<div class="somos row">
 								<div class="lado3 col-sm-12 col-md-4">
 									<img src="img/masaje2.jpg" alt="">
@@ -131,16 +139,35 @@
 				<div class="col-12 contacto">
 					<h2>Contactanos para mas informacion</h2>
 				</div>
-				<div class="col-3 telefono"><h3>Numero de Telefono</h3></div>
+				<div class="col-3 telefono"><i class="cellIco fas fa-phone-square-alt"></i><h3>+51941227554</h3></div>
 				<div class="col-1"></div>
-				<div class="col-4 direccion"><h3>Direccion</h3></div>
+				<div class="col-4 direccion"><i class="direcIco fas fa-map-marker-alt"></i><h3>Calle las flores 173, trujillo</h3></div>
 				<div class="col-1"></div>
-				<div class="col-3 correo"><h3>Correo</h3></div>
+				<div class="col-3 horario"><i class="relojIco far fa-clock"></i><h3>Lun-Vi: 8 am - 7 pm</h3></div>
 			</div>
 			<div class="row">
 				<div class="col-12">
 					<div class="formulario">
-						
+						<form action="">
+					<div class="form-group col-12 d-flex flex-direction-row">
+						<div class="col-6 mt-5 d-flex justify-content-center flex-direction-column flex-wrap-wrap">
+							<input type="text" class="form-control nombre col-10" placeholder="Nombre" name="nombre"
+							id="nombre">
+						</div>
+						<div class="col-6 mt-5 d-flex justify-content-center flex-direction-column flex-wrap-wrap">
+							<input type="text" class="form-control email col-10" placeholder="correo" name="correo"
+							id="correo">
+						</div>
+					</div>
+					<div class="form-group d-flex justify-content-center">
+						<div class=""></div>
+						<textarea name="mensaje" class="form-control col-11 mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+						<div class=""></div>
+					</div>
+					<div class="form-group d-flex justify-content-end">
+						<input type="submit" class="d-flex justify-content-center col-2 btn btn-success btn-block mt-3" value="enviar">
+					</div>
+				</form>
 					</div>
 				</div>
 			</div>
